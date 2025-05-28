@@ -1,50 +1,60 @@
-# 📊 Tableau Visualization – Filming Permits Project
+# 📊 AWS + Redshift + Tableau – Filming Permits Analytics Project
 
-This project showcases an interactive dashboard built using Tableau to analyze filming permit data. The dataset explores where, when, and how frequently film permits were issued in a city context.
+This project showcases a full data analytics pipeline integrating AWS Redshift and S3 with Tableau for interactive visualization. The analysis focuses on filming permit data — providing insight into location, timing, and type of film-related activities.
+
+---
+
+## ☁️ Tech Stack
+
+- **AWS S3**: Raw data storage (CSV file)
+- **AWS Redshift**: Cloud data warehouse used for querying and aggregation
+- **Tableau**: Dashboard and visual analytics tool
+- **SQL**: For ETL and data transformation in Redshift
 
 ---
 
 ## 📂 Files Included
 
-- `Tableau_RiteshLuitel_s4682841.twb`: Tableau workbook file (dashboard)  
-- `Tableau_RiteshLuitel_s4682841.docx`: Accompanying documentation/report  
-- `filmingpermits.csv`: Cleaned CSV dataset used for the dashboard  
+- `filmingpermits.csv`: Sample dataset uploaded to S3 and queried in Redshift  
+- `Tableau_RiteshLuitel_s4682841.twb`: Tableau dashboard with live Redshift connection  
+- `Tableau_RiteshLuitel_s4682841.docx`: Project write-up/report  
 
 ---
 
 ## 🎯 Project Goals
 
-- Identify trends and patterns in film permit issuance  
-- Explore location-based activity and permit frequencies over time  
-- Provide an easy-to-use dashboard for stakeholders  
+- Explore permit issuance trends by location and time  
+- Build an end-to-end cloud-based data pipeline  
+- Deliver interactive insights for public or private stakeholders  
 
 ---
 
-## 📊 Dashboard Highlights
+## 📊 Dashboard Features
 
-- **Interactive map**: Displays permit locations across the city  
-- **Time-series charts**: Track permits over time  
-- **Category filters**: Breakdown by project type (commercial, film, etc.)  
-- **KPIs**: Total permits, busiest months, and high-traffic zones  
+- **Dynamic Map View**: Displays filming locations  
+- **Time-Series Analysis**: Permits by month/year  
+- **Filter Controls**: Permit type, district, and status  
+- **KPI Cards**: Total permits, active projects, top zones  
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- Data cleaning and preparation (CSV)
-- Tableau dashboard design and layout
-- Visual storytelling using filters, maps, and KPIs
-- Report writing and interpretation of visual insights
+- AWS Data Pipeline: S3 → Redshift  
+- SQL transformations for Tableau-ready datasets  
+- Tableau dashboard creation and publishing  
+- Visual storytelling for operational decision-making  
 
 ---
 
 ## 📌 Notes
 
-- The `.twb` file can be opened using Tableau Desktop or Tableau Public (desktop app)
-- The dataset is based on publicly available or fictional data, used purely for academic purposes
+- `.twb` requires Tableau Desktop or Tableau Public  
+- Redshift used for performance optimization of large datasets  
+- Dataset used is either public or simulated for educational purposes
 
 ---
 
 ## 📧 Contact
 
-Feel free to reach out via LinkedIn for feedback, collaboration, or questions.
+For questions or collaboration opportunities, connect with me on [LinkedIn](#).
