@@ -1,6 +1,6 @@
 # 📊 AWS + Redshift + Tableau – Filming Permits Analytics Project
 
-This project showcases a full data analytics pipeline integrating AWS Redshift and S3 with Tableau for interactive visualization. The analysis focuses on filming permit data — providing insight into location, timing, and type of film-related activities.
+This project showcases a full data analytics pipeline integrating AWS Redshift and S3 with Tableau for interactive visualization. The analysis focuses on filming permit data providing insight into location, timing, and type of film-related activities.
 
 ---
 
